@@ -206,7 +206,7 @@ class HRPNApp():
         if self.hsg.ret_setting('hideheader') is False:
             print(self.header + self.bold + self.underline + "HRPN Calculator" + self.endc)
             print("Enter a command or number to push to the stack")
-            print("Commands: +, -, *, /, c, d, s, x, n, p, q, sto[key], rcl[key], settings")
+            print("Commands: +, -, *, /, c, d, s, x, n, p, q, sto[key], rcl[key], set")
         else:
             return
 
